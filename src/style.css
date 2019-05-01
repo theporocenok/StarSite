@@ -1,0 +1,157 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.header {
+  position: fixed;
+  width:100%;
+  margin:0;
+  background: url(img/asphalt.jpg);
+  background-size: auto;
+  z-index:999;
+  border-bottom: 2px solid white;
+}
+
+.social-container {
+  float:left;
+  cursor: default;
+  font-family: 'Gugi', cursive;
+  margin-left:5px;
+}
+
+.links-container {
+  padding-right:20px;
+  padding-bottom:5px;
+  padding-top:13px;
+  font-family: 'Miltonian', cursive;
+  font-size:1.6rem;
+}
+
+.logo {
+  display: inline-block;
+  margin-right:15px;
+  cursor: pointer;
+}
+
+.logo img {
+  margin: 5px;
+  margin-right: 0px;
+  width: 3rem;
+  height: auto;
+}
+
+.star-text {
+  color: yellow;
+  font-size: 2rem;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  padding-top:10px;
+}
+
+.icon {
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.svg-icon {
+  fill: yellow;
+  height: 24px;
+  margin-top:5px;
+}
+
+.svg-icon:hover {
+  fill:#ffc107;
+}
+
+.moreinf {
+  margin-left:35px;
+  color:yellow;
+}
+
+.moreinf:hover{
+  color:#ffc107;
+}
+
+.disk__info {
+  margin:0;
+  padding:0;
+  width:100vw;
+  height:100vh;
+  background: url(img/disks.jpg);
+  background-size:auto;
+  background-repeat: no-repeat;
+}
+
+.disk .row {
+  margin: 0;
+}
+
+.disk__main {
+  margin: 7% auto;
+}
+
+.disk__menu {
+  padding-top:20px;
+  width: fit-content;
+
+}
+
+.disk__menu-item {
+  background: red;
+  border: 2px solid white;
+  padding: 4px 20px;
+}
+
+.disk__menu-item a {
+  color: white;
+  text-decoration: none!important;
+}
+
+.photo {
+  width: 100%;
+  min-height: 0px !important;
+  padding:100px 0;
+  height: auto;
+  background-image: url(img/leathertile.jpg);
+  background-repeat: repeat;
+}
+
+.photo__text {
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 45px;
+  margin:auto;
+  padding-left: 70px;
+  color: #ffe27b;
+}
+
+.photo__carousel {
+  margin-top:70px;
+  margin-bottom: 70px;
+}
+
+.photo__item {
+  height: 900px;
+}
+
+.carousel {
+  margin-top: 20px;
+ }
+
+ .item .thumb {
+  width: 25%;
+  cursor: pointer;
+  float: left;
+ }
+
+ .item .thumb img {
+  width: 100%;
+  margin: 2px;
+ }
+ 
+ .item img {
+  width: 100%; 
+ }
