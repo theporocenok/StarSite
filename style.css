@@ -8,6 +8,7 @@ body {
   margin:0;
   background: url(img/headerbackcpy.jpg);
   background-size: auto;
+  z-index:999;
 }
 
 .social-container {
@@ -19,6 +20,11 @@ body {
 
 .links-container {
   float:right;
+  padding-right:20px;
+  padding-bottom:5px;
+  padding-top:13px;
+  font-family: 'Just Another Hand', cursive;
+  font-size:1.6rem;
 }
 
 .logo {
@@ -53,4 +59,34 @@ body {
   fill: yellow;
   height: 24px;
   margin-top:5px;
+}
+
+.svg-icon:hover {
+  fill:#ffc107;
+}
+
+.moreinf {
+  margin-left:15px;
+  color:yellow;
+}
+
+.moreinf:hover{
+  color:#ffc107;
+}
+
+.disk-body {
+  margin:0;
+  padding:0;
+  width:100vw;
+  height:100vw;
+  min-height: 100vw;
+  background: url(img/disks.jpg);
+  background-size:auto;
+  background-repeat: no-repeat;
+}
+
+.disk-main {
+  display:block;
+  padding-top:10%;
+  position: absolute;
 }
