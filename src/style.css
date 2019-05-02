@@ -97,6 +97,10 @@ body {
   margin: 7% auto;
 }
 
+.disk__icon img {
+  width:100%;
+}
+
 .disk__menu {
   padding-top:20px;
   width: fit-content;
