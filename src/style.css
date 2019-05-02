@@ -2,6 +2,11 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .header {
   position: fixed;
   width:100%;
@@ -68,6 +73,7 @@ body {
 .moreinf {
   margin-left:35px;
   color:yellow;
+  text-transform: uppercase;
 }
 
 .moreinf:hover{
@@ -77,7 +83,6 @@ body {
 .disk__info {
   margin:0;
   padding:0;
-  width:100vw;
   height:100vh;
   background: url(img/disks.jpg);
   background-size:auto;
@@ -129,29 +134,91 @@ body {
 }
 
 .photo__carousel {
-  margin-top:70px;
-  margin-bottom: 70px;
+  padding:0;
+  margin:70px auto;
 }
 
-.photo__item {
-  height: 900px;
-}
-
-.carousel {
-  margin-top: 20px;
- }
-
- .item .thumb {
-  width: 25%;
-  cursor: pointer;
-  float: left;
- }
-
- .item .thumb img {
+.catousel__img {
+  height: 100%;
   width: 100%;
-  margin: 2px;
- }
- 
- .item img {
-  width: 100%; 
- }
+  object-fit: cover;
+}
+
+.a_car_img {
+  width: 25%;
+  height: 300px;
+  display: inline-block;
+}
+
+.carousel-control-next {
+  width: 20px;
+  right: -30px;
+}
+
+.carousel-control-prev {
+  width: 20px;
+  left: -30px;
+}
+
+.photo__btn {
+  text-align: center;
+  background-color: #ffe27b;
+  padding: 3px 20px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color:black!important;
+  text-decoration: none!important;
+  padding-top:8px;
+  padding-bottom: 8px;
+}
+
+.subscribe {
+  position: relative;
+  height: 100%;
+  
+  background-color: #ffe27b;
+  height: calc(100vh - 60px);
+}
+
+.subscribe h2 {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subscribe .row {
+  height: 100%;
+}
+
+.subscribe form input {
+  margin-top:40px;
+  padding:5px 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  background-color: #ffe27b;
+  width: 400px;
+  outline: none;
+  border:2px solid black;
+  
+}
+
+.subscribe button {
+  margin-top:20px;
+  padding:5px 15px;
+  color: #ffe27b;
+  font-weight: bold;
+  text-transform: uppercase;
+  background:url(img/leathertile.jpg);
+  outline: none;
+  border:2px solid black;
+}
+
+.ver-center{ 
+
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
