@@ -226,3 +226,32 @@ body {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+.schedule__info {
+  margin:0;
+  padding:0;
+  height:100vh;
+  background-color: #ffe27b;
+}
+
+.schedule__info .row {
+  margin: 0;
+}
+
+.schedule {
+  margin: 7% auto;
+}
+
+.schedule table {
+  border:3px solid black;
+  margin:auto;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.schedule th {
+  border:2px solid black;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top:20px;
+}
