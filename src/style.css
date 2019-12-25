@@ -1,3 +1,9 @@
+@font-face {
+  font-family: StarFont; /* Имя шрифта */
+  src: url(StarFont.ttf); /* Путь к файлу со шрифтом */
+ }
+
+
 body {
   font-family: 'Raleway', sans-serif;
 }
@@ -254,4 +260,46 @@ body {
   padding-right: 10px;
   padding-left: 10px;
   padding-top:20px;
+}
+
+.biography {
+  font-family: StarFont;
+  margin:0;
+  padding:0;
+  min-height: 100vh;
+  background: url(img/stars.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: 0;
+}
+
+.biography__logo {
+  display: inline-block;
+  padding-top: 60px;
+  letter-spacing: 25px;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 8px 2px 2px black, 0 0 1em red;
+  margin:auto;
+  padding-left: 70px;
+  color: #ffe27b;
+  margin-bottom: 10px;
+
+}
+
+.biography__textblock {
+  padding-bottom: 0;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  color: #c5b9b9;
+}
+
+.biography__photo img {
+  border: 4px solid black;
+  width: 80%;
 }
